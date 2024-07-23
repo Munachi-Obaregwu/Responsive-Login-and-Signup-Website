@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- REMIXICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Website with Login and Register</title>
+</head>
+<body>
+    <!-- Body -->
+    <section class="form_wrapper">
+        <!-- Login Form -->
+        <form action="" class="form form-active" id="login-form">
+            <h1 class="form_title">Login</h1>
+
+            <div class="form_content">
+                <div class="form_box">
+                    <i class="ri-mail-line form_icon"></i>
+
+                    <div class="form_box-input">
+                        <input type="email" name="" class="form_input" placeholder=" ">
+                        <label for="" class="form_label">Email</label>
+                    </div>
+                </div>
+
+                <div class="form_box">
+                    <i class="ri-lock-2-line form_icon"></i>
+
+                    <div class="form_box-input">
+                        <input type="password" name="" class="form_input" placeholder=" " id="login_password">
+                        <label for="" class="form_label">Password</label>
+
+                        <i class="ri-eye-off-line form_eye" id="login-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_check">
+                <div class="form_check-group">
+                    <input type="checkbox" class="form_check-input">
+                    <label for="" class="form_check-label">Remember Me</label>
+                </div>
+
+                <a href="#" class="form_forgot">Forgot Password</a>
+            </div>
+
+            <button type="submit" class="form_button">Login</button>
+            <p class="login_register">Don't have an account? <span id="register-btn">Register</span></p>
+        </form>
+
+        <!-- Regster/Signup Form -->
+        <form action="" class="form" id="register-form">
+            <h1 class="form_title">Register</h1>
+
+            <div class="form_content">
+                <div class="form_box">
+                    <i class="ri-user-line form_icon"></i>
+
+                    <div class="form_box-input">
+                        <input type="text" name="" class="form_input" placeholder=" ">
+                        <label for="" class="form_label">Username</label>
+                    </div>
+                </div>
+
+                <div class="form_box">
+                    <i class="ri-mail-line form_icon"></i>
+
+                    <div class="form_box-input">
+                        <input type="email" name="" class="form_input" placeholder=" ">
+                        <label for="" class="form_label">Email</label>
+                    </div>
+                </div>
+
+                <div class="form_box">
+                    <i class="ri-lock-2-line form_icon"></i>
+
+                    <div class="form_box-input">
+                        <input type="password" name="" class="form_input" placeholder=" " id="register_password">
+                        <label for="" class="form_label">Password</label>
+
+                        <i class="ri-eye-off-line form_eye" id="register-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_check">
+                <div class="form_check-group">
+                    <input type="checkbox" class="form_check-input">
+                    <label for="" class="form_check-label">I agree to the terms and conditions</label>
+                </div>
+            </div>
+
+            <button type="submit" class="form_button">Register</button>
+            <p class="login_register">
+                Already have an account? <span id="login-btn">Login</span>
+            </p>
+        </form>
+    </section>
+    
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
